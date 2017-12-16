@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 30px 50px;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+pre {
+  color: red;
+}

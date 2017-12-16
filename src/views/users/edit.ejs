@@ -1,0 +1,11 @@
+<% include ../partials/header %>
+
+<h1>Edit Profile</h1>
+<form id='updateUser' method='put' action='/users/<%= user.id %>'>
+  <input name='id' type='hidden' value='<%= user.id %>'>
+  <input name='name' value='<%= user.name %>'/>
+  <input name='email' value='<%= user.email %>'/>
+  <input type='submit' value='Save' />
+</form>
+
+<% include ../partials/footer %>
